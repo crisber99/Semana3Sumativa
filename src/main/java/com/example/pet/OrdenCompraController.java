@@ -19,6 +19,9 @@ public class OrdenCompraController {
         OC.add(new OrdenCompra(3, "empresa 3", "Proveedor 3", "Dirección 3", Arrays.asList(new Productos("A003","prod 3", 6, 4000)), llenarListaEstadoMap("A003", "Pendiente")));
         OC.add(new OrdenCompra(4, "empresa 4", "Proveedor 4", "Dirección 4", Arrays.asList(new Productos("A004","prod 4", 1, 1000)), llenarListaEstadoMap("A004", "Entregado")));
         OC.add(new OrdenCompra(5, "empresa 5", "Proveedor 5", "Dirección 5", Arrays.asList(new Productos("A005","prod 5", 8, 500)), llenarListaEstadoMap("A005", "En Camino")));
+        OC.add(new OrdenCompra(6, "empresa 6", "Proveedor 6", "Dirección 6", Arrays.asList(new Productos("A006","prod 6", 6, 4000)), llenarListaEstadoMap("A006", "Pendiente")));
+        OC.add(new OrdenCompra(7, "empresa 7", "Proveedor 7", "Dirección 7", Arrays.asList(new Productos("A007","prod 7", 1, 1000)), llenarListaEstadoMap("A007", "Entregado")));
+        OC.add(new OrdenCompra(8, "empresa 8", "Proveedor 8", "Dirección 8", Arrays.asList(new Productos("A008","prod 8", 8, 500)), llenarListaEstadoMap("A008", "En Camino")));
 
     }
 
